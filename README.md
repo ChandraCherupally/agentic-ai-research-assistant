@@ -343,15 +343,10 @@ Gemini + APIs
 # Screenshots
 
 ## Home Page
-
-(Add screenshot)
-
 ---
 
 ## Chat Example
-
 <img width="100%" src="images/image.png">
-
 ---
 
 ## Logs

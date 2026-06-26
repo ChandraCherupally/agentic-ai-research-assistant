@@ -1,27 +1,27 @@
-2026-06-26 20:41:18,283 | INFO | LangChain-Agent | ======================================================================
-2026-06-26 20:41:18,284 | INFO | LangChain-Agent | Application Started
-2026-06-26 20:41:18,284 | INFO | LangChain-Agent | ======================================================================
-2026-06-26 20:41:18,284 | INFO | LangChain-Agent | Loading environment variables...
-2026-06-26 20:41:18,286 | INFO | LangChain-Agent | Environment variables loaded successfully.
-2026-06-26 20:41:18,286 | INFO | LangChain-Agent | Initializing Gemini LLM...
-2026-06-26 20:41:18,701 | INFO | LangChain-Agent | Gemini initialized successfully.
-2026-06-26 20:41:18,701 | INFO | LangChain-Agent | Initializing Tavily Search Tool...
-2026-06-26 20:41:18,707 | INFO | LangChain-Agent | Tavily Search Tool initialized successfully.
-2026-06-26 20:41:18,710 | INFO | LangChain-Agent | Weather Tool initialized successfully.
-2026-06-26 20:41:18,710 | INFO | LangChain-Agent | Registered 2 tools.
-2026-06-26 20:41:18,710 | INFO | LangChain-Agent | Creating LangChain Agent...
-2026-06-26 20:41:18,717 | INFO | LangChain-Agent | LangChain Agent created successfully.
-2026-06-26 20:41:18,717 | INFO | LangChain-Agent | ============================================================
-2026-06-26 20:41:18,717 | INFO | LangChain-Agent | User Query : Find the capital of Telangana and then find its current weather.
-2026-06-26 20:41:18,718 | INFO | LangChain-Agent | ============================================================
-2026-06-26 20:41:20,591 | INFO | httpx | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
-2026-06-26 20:41:23,661 | INFO | httpx | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
-2026-06-26 20:41:23,667 | INFO | LangChain-Agent | Weather Tool Invoked | city=Hyderabad
-2026-06-26 20:41:23,668 | INFO | LangChain-Agent | Calling WeatherStack API...
-2026-06-26 20:41:29,494 | INFO | LangChain-Agent | Weather fetched successfully for Hyderabad
-2026-06-26 20:41:31,135 | INFO | httpx | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
-2026-06-26 20:41:31,141 | INFO | LangChain-Agent | Agent execution completed.
-2026-06-26 20:41:31,142 | INFO | LangChain-Agent | ------------------------------------------------------------
-2026-06-26 20:41:31,143 | INFO | LangChain-Agent | FINAL RESPONSE
-2026-06-26 20:41:31,144 | INFO | LangChain-Agent | ------------------------------------------------------------
-2026-06-26 20:41:31,144 | INFO | LangChain-Agent | The capital of Telangana is Hyderabad. The current weather in Hyderabad is Haze with a temperature of 29°C and 66% humidity.
+2026-06-26 21:24:43,429 | INFO | LangChain-Agent | ======================================================================
+2026-06-26 21:24:43,429 | INFO | LangChain-Agent | Application Started
+2026-06-26 21:24:43,429 | INFO | LangChain-Agent | ======================================================================
+2026-06-26 21:24:43,429 | INFO | LangChain-Agent | Loading environment variables...
+2026-06-26 21:24:43,431 | INFO | LangChain-Agent | Environment variables loaded successfully.
+2026-06-26 21:24:43,432 | INFO | LangChain-Agent | Initializing Gemini LLM...
+2026-06-26 21:24:44,002 | INFO | LangChain-Agent | Gemini initialized successfully.
+2026-06-26 21:24:44,003 | INFO | LangChain-Agent | Initializing Tavily Search Tool...
+2026-06-26 21:24:44,004 | INFO | LangChain-Agent | Tavily Search Tool initialized successfully.
+2026-06-26 21:24:44,006 | INFO | LangChain-Agent | Weather Tool initialized successfully.
+2026-06-26 21:24:44,006 | INFO | LangChain-Agent | Registered 2 tools.
+2026-06-26 21:24:44,006 | INFO | LangChain-Agent | Creating LangChain Agent...
+2026-06-26 21:24:44,020 | INFO | LangChain-Agent | LangChain Agent created successfully.
+2026-06-26 21:24:44,022 | INFO | LangChain-Agent | ============================================================
+2026-06-26 21:24:44,022 | INFO | LangChain-Agent | User Query : Find the capital of Telangana and then find its current weather.
+2026-06-26 21:24:44,022 | INFO | LangChain-Agent | ============================================================
+2026-06-26 21:24:46,487 | INFO | httpx | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2026-06-26 21:24:50,473 | INFO | httpx | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2026-06-26 21:24:50,480 | INFO | LangChain-Agent | Weather Tool Invoked | city=Hyderabad
+2026-06-26 21:24:50,480 | INFO | LangChain-Agent | Calling WeatherStack API...
+2026-06-26 21:24:52,729 | INFO | LangChain-Agent | Weather fetched successfully for Hyderabad
+2026-06-26 21:24:53,864 | INFO | httpx | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2026-06-26 21:24:53,868 | INFO | LangChain-Agent | Agent execution completed.
+2026-06-26 21:24:53,868 | INFO | LangChain-Agent | ------------------------------------------------------------
+2026-06-26 21:24:53,869 | INFO | LangChain-Agent | FINAL RESPONSE
+2026-06-26 21:24:53,869 | INFO | LangChain-Agent | ------------------------------------------------------------
+2026-06-26 21:24:53,869 | INFO | LangChain-Agent | Hyderabad is the capital of Telangana. The current weather in Hyderabad is Haze with a temperature of 29°C and 66% humidity.

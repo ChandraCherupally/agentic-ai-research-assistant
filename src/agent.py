@@ -64,3 +64,38 @@ def create_langchain_agent(llm: ChatOpenAI, tools: list, logger: logging.Logger)
         logger.exception("Agent creation failed.")
         raise
 
+
+
+# =========================================================
+# RUN AGENT
+# =========================================================
+
+def run_agent(agent, query: str, logger: logging.Logger):
+    """
+    Execute user query.
+    """
+
+    try:
+        logger.info("=" * 60)
+        logger.info("User Query : %s", query)
+        logger.info("=" * 60)
+        response = agent.invoke({
+                "messages": [
+                    {
+                        "role": "user",
+                        "content": query
+                    }
+                ]
+            })
+
+        answer = response["messages"][-1].content
+        logger.info("Agent execution completed.")
+        logger.info("-" * 60)
+        logger.info("FINAL RESPONSE")
+        logger.info("-" * 60)
+        logger.info(answer)
+        return answer
+
+    except Exception:
+        logger.exception("Agent execution failed.")
+        raise
