@@ -15,9 +15,8 @@ The application is capable of:
 
 # Demo
 
-<img width="100%" src="images/demo.png">
+<img width="100%" src="images/image-2.png">
 
-![alt text](image-2.png)
 ---
 
 # Features
@@ -47,7 +46,6 @@ The application is capable of:
 | UI | Streamlit |
 | Environment | python-dotenv |
 | Logging | Python logging |
-| Deployment | AWS EC2 |
 
 ---
 
@@ -352,13 +350,12 @@ Gemini + APIs
 
 ## Chat Example
 
-![alt text](image.png)
+<img width="100%" src="images/image.png">
 
 ---
 
 ## Logs
-
-![alt text](image-1.png)
+<img width="100%" src="images/image-1.png">
 ---
 
 # Learning Objectives
