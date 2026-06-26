@@ -11,10 +11,15 @@ Sections
 # =========================================================
 # IMPORTS
 # =========================================================
-from src.config import (setup_logging, load_environment)
-from src.agent import (create_llm, create_langchain_agent, run_agent)
-from src.tools import (create_search_tool, create_weather_tool)
-
+from src import (
+    setup_logging,
+    load_environment,
+    create_llm,
+    create_langchain_agent,
+    run_agent,
+    create_search_tool,
+    create_weather_tool,
+)
 
 # =========================================================
 # MAIN

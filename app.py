@@ -1,8 +1,12 @@
 import streamlit as st
-from src.config import (setup_logging, load_environment)
-from src.agent import (create_llm, create_langchain_agent)
-from src.tools import (create_search_tool, create_weather_tool)
-
+from src import (
+    setup_logging,
+    load_environment,
+    create_llm,
+    create_langchain_agent,
+    create_search_tool,
+    create_weather_tool,
+)
 # -----------------------------------------------------
 # PAGE CONFIG
 # -----------------------------------------------------
